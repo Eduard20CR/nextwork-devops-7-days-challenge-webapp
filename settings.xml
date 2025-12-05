@@ -22,20 +22,13 @@
             </repositories>
         </profile>
     </profiles>
-    <profiles>
-        <profile>
+    <mirrors>
+        <mirror>
             <id>nextwork-devops-7-days-challenge-webapp-nextwork-devops-7-days-challenge-webapp</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <repositories>
-                <repository>
-                    <id>
-                        nextwork-devops-7-days-challenge-webapp-nextwork-devops-7-days-challenge-webapp</id>
-                    <url>
-                        https://nextwork-devops-7-days-challenge-webapp-058264166152.d.codeartifact.us-east-1.amazonaws.com/maven/nextwork-devops-7-days-challenge-webapp/</url>
-                </repository>
-            </repositories>
-        </profile>
-    </profiles>
+            <name>nextwork-devops-7-days-challenge-webapp-nextwork-devops-7-days-challenge-webapp</name>
+            <url>
+                https://nextwork-devops-7-days-challenge-webapp-058264166152.d.codeartifact.us-east-1.amazonaws.com/maven/nextwork-devops-7-days-challenge-webapp/</url>
+            <mirrorOf>*</mirrorOf>
+        </mirror>
+    </mirrors>
 </settings>
